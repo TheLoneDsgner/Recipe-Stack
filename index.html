@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe stack</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <a href="#" class="brand-container">
+                    <img src="./images/Logo.svg" alt="Recipe Stack Logo">
+                </a>
+                <div class="header-button-container">
+                    <button class="btn-primary-header">Discover Recipes</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero-section">
+            <div class="hero-container">
+                <div class="hero-left-container">
+                    <div class="hero-text-container">
+                        <div class="caption-hero">
+                            <div class="recipe-stack">Recipe Stack</div>
+                            <p class="caption-text">Your go-to recipe bank.</p>
+                        </div>
+                        <div class="hero-copy-container">
+                            <h1>Delicious Meals Start with the Right Recipe</h1>
+                            <p>Find easy, flavorful recipes that match your taste and ingredients.</p>
+                        </div>
+                    </div>
+     
+                    <div class="hero-button-container">
+                        <button class="btn-primary">Discover Recipes</button>
+                    </div>
+                </div>
+    
+                <div class="hero-right-container">
+                    <div class="hero-visual-container">
+                        <div class="large-img">
+                            
+                        </div>
+                        <div class="hero-display-container">
+                            <div class="hero-display-wrapper">
+                                <div class="display-card-img">
+                                    <img src="./images/meal-2.png" alt="display image">
+                                </div>
+                                <div class="display-card-text">
+                                    <p class="display-caption">CHIKEN</p>
+                                    <p class="display-card-title">Kentucky Fried Chicken</p>
+                                </div>
+                            </div>
+                            <div class="hero-display-wrapper">
+                                <div class="display-card-img">
+                                    <img src="./images/meal-2.png" alt="display image">
+                                </div>
+                                <div class="display-card-text">
+                                    <p class="display-caption">CHIKEN</p>
+                                    <p class="display-card-title">Kentucky Fried Chicken</p>
+                                </div>
+                            </div>
+                            <div class="hero-display-wrapper">
+                                <div class="display-card-img">
+                                    <img src="./images/meal-2.png" alt="display image">
+                                </div>
+                                <div class="display-card-text">
+                                    <p class="display-caption">CHIKEN</p>
+                                    <p class="display-card-title">Kentucky Fried Chicken</p>
+                                </div>
+                            </div>
+                            <div class="hero-display-wrapper">
+                                <div class="display-card-img">
+                                    <img src="./images/meal-2.png" alt="display image">
+                                </div>
+                                <div class="display-card-text">
+                                    <p class="display-caption">CHIKEN</p>
+                                    <p class="display-card-title">Kentucky Fried Chicken</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- recipes -->
+         <div class="recipe-section">
+            <div class="recipe-section-container">
+                <div class="search-and-category">
+                    <div class="category-container">
+                        <p>Category</p>
+                        <div class="category-chips">
+                            <div class="chip-control-bg-left" id="chip-btn-left">
+                                <div class="chip-left-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29279 12.7073C8.10532 12.5198 8 12.2655 8 12.0003C8 11.7352 8.10532 11.4809 8.29279 11.2933L13.9498 5.63634C14.042 5.54083 14.1524 5.46465 14.2744 5.41224C14.3964 5.35983 14.5276 5.33225 14.6604 5.33109C14.7932 5.32994 14.9248 5.35524 15.0477 5.40552C15.1706 5.4558 15.2823 5.53006 15.3762 5.62395C15.4701 5.71784 15.5443 5.82949 15.5946 5.95239C15.6449 6.07529 15.6702 6.20696 15.669 6.33974C15.6679 6.47252 15.6403 6.60374 15.5879 6.72575C15.5355 6.84775 15.4593 6.9581 15.3638 7.05034L10.4138 12.0003L15.3638 16.9503C15.5459 17.1389 15.6467 17.3915 15.6445 17.6537C15.6422 17.9159 15.537 18.1668 15.3516 18.3522C15.1662 18.5376 14.9154 18.6427 14.6532 18.645C14.391 18.6473 14.1384 18.5465 13.9498 18.3643L8.29279 12.7073Z" fill="#2E3937"/>
+                                        </svg>                                    
+                                </div>
+                            </div>
+
+
+                            <div class="chips-wrapper" id="chip-wrapper">
+                                <a href="#"class="chip active" id="category-filter" data-category="">All</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Breakfast</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Beef</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Pasta</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Goat</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Pork</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Seafood</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Stater</a>
+                                <a href="#"class="chip" id="category-filter" data-category="Breakfast">Vegetarian</a>
+                            </div>
+
+                            <div class="chip-control-bg-right" id="chip-btn-right">
+                                <div class="chip-right-icon" >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3792_13363)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7073 11.2932C15.8948 11.4807 16.0001 11.735 16.0001 12.0002C16.0001 12.2653 15.8948 12.5197 15.7073 12.7072L10.0503 18.3642C9.9581 18.4597 9.84775 18.5359 9.72575 18.5883C9.60374 18.6407 9.47252 18.6683 9.33974 18.6694C9.20696 18.6706 9.07529 18.6453 8.95239 18.595C8.82949 18.5447 8.71784 18.4705 8.62395 18.3766C8.53006 18.2827 8.4558 18.171 8.40552 18.0481C8.35524 17.9252 8.32994 17.7936 8.33109 17.6608C8.33225 17.528 8.35983 17.3968 8.41224 17.2748C8.46465 17.1528 8.54083 17.0424 8.63634 16.9502L13.5863 12.0002L8.63634 7.05018C8.45418 6.86158 8.35339 6.60898 8.35567 6.34678C8.35795 6.08458 8.46312 5.83377 8.64852 5.64836C8.83393 5.46295 9.08474 5.35778 9.34694 5.35551C9.60914 5.35323 9.86174 5.45402 10.0503 5.63618L15.7073 11.2932Z" fill="#2E3937"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_3792_13363">
+                                        <rect width="24" height="24" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recipe-section-title">
+                        <h2>Discover tasty and flavorful recipes</h2>
+                    </div>
+
+                    <div class="search-container">
+                        <form class="search">
+                            <div class="icon-and-input">
+                                <div class="search-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2 10.5003C2.00012 9.14485 2.32436 7.80912 2.94569 6.60451C3.56702 5.3999 4.46742 4.36135 5.57175 3.57549C6.67609 2.78963 7.95235 2.27926 9.29404 2.08696C10.6357 1.89466 12.004 2.026 13.2846 2.47003C14.5652 2.91406 15.7211 3.6579 16.6557 4.63949C17.5904 5.62108 18.2768 6.81196 18.6576 8.11277C19.0384 9.41358 19.1026 10.7866 18.8449 12.1173C18.5872 13.448 18.015 14.6977 17.176 15.7623L20.828 19.4143C21.0102 19.6029 21.111 19.8555 21.1087 20.1177C21.1064 20.3799 21.0012 20.6307 20.8158 20.8161C20.6304 21.0015 20.3796 21.1066 20.1174 21.1089C19.8552 21.1112 19.6026 21.0104 19.414 20.8283L15.762 17.1763C14.5086 18.1642 13.0024 18.7794 11.4157 18.9514C9.82905 19.1233 8.22602 18.8451 6.79009 18.1485C5.35417 17.4519 4.14336 16.3651 3.29623 15.0126C2.44911 13.66 1.99989 12.0962 2 10.5003ZM10.5 6.00025C10.2348 6.00025 9.98043 6.10561 9.79289 6.29315C9.60536 6.48068 9.5 6.73504 9.5 7.00025C9.5 7.26547 9.60536 7.51982 9.79289 7.70736C9.98043 7.8949 10.2348 8.00025 10.5 8.00025C11.163 8.00025 11.7989 8.26365 12.2678 8.73249C12.7366 9.20133 13 9.83721 13 10.5003C13 10.7655 13.1054 11.0198 13.2929 11.2074C13.4804 11.3949 13.7348 11.5003 14 11.5003C14.2652 11.5003 14.5196 11.3949 14.7071 11.2074C14.8946 11.0198 15 10.7655 15 10.5003C15 9.30678 14.5259 8.16219 13.682 7.31827C12.8381 6.47436 11.6935 6.00025 10.5 6.00025Z" fill="#077C37"/>
+                                        </svg>
+                                </div>
+
+                                <input type="text" placeholder="Search recipe" name="search" id="search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Recipe cards -->
+                <div class="recipe-cards-container" id="recipeCardsContainer">
+                    <div class="cards-wrapper-recipe" id="recipeCardsWrapper">
+
+                        <!-- <div class="recipe-card" id="recipeCard">
+                            <div class="img-card-wrapper">
+                                <img class="meal-image" src="./images/meal-1.png" alt="meal image">
+                            </div>
+                            <div class="card-text-wrapper" id="mealContent">
+                                <div class="caption-and-title">
+                                    <p class="card-caption">Chicken</p>
+                                    <h3 class="card-title">Kentucky Fried Chicken</h3>
+                                </div>
+                                <button class="btn-secondary" id="btn-secondary">Get Recipe</button>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+                
+                
+            </div>
+         </div>
+
+         <!-- Recipe modal -->
+          <div class="recipe-modal" id="modal">
+            <div class="modal-container" id="modal-container">
+                <div class="modal-content-wrapper" id="modal-content-wrapper">
+                     <!-- <div class="modal-header">
+                    <p>Name Recipes</p>
+                    <div class="close-icon" id="closeModal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3838_14688)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 14.1216L17.3026 19.4246C17.584 19.706 17.9657 19.8641 18.3636 19.8641C18.7616 19.8641 19.1432 19.706 19.4246 19.4246C19.706 19.1432 19.8641 18.7616 19.8641 18.3636C19.8641 17.9657 19.706 17.584 19.4246 17.3026L14.1196 11.9996L19.4236 6.69662C19.5629 6.55729 19.6733 6.39189 19.7487 6.20987C19.824 6.02785 19.8628 5.83277 19.8627 5.63577C19.8627 5.43877 19.8238 5.24371 19.7484 5.06172C19.673 4.87974 19.5624 4.71439 19.4231 4.57512C19.2838 4.43586 19.1184 4.3254 18.9364 4.25005C18.7543 4.1747 18.5592 4.13595 18.3623 4.13599C18.1653 4.13604 17.9702 4.17489 17.7882 4.25032C17.6062 4.32575 17.4409 4.43629 17.3016 4.57562L11.9996 9.87862L6.6966 4.57562C6.5583 4.43229 6.39284 4.31794 6.20987 4.23924C6.0269 4.16055 5.83009 4.11907 5.63092 4.11725C5.43176 4.11543 5.23422 4.15329 5.04984 4.22862C4.86546 4.30395 4.69793 4.41526 4.55703 4.55603C4.41612 4.6968 4.30466 4.86422 4.22916 5.04853C4.15365 5.23284 4.1156 5.43034 4.11724 5.62951C4.11887 5.82868 4.16016 6.02553 4.23869 6.20857C4.31721 6.39161 4.43141 6.55718 4.5746 6.69562L9.8796 11.9996L4.5756 17.3036C4.43241 17.4421 4.31821 17.6076 4.23969 17.7907C4.16116 17.9737 4.11987 18.1706 4.11824 18.3697C4.1166 18.5689 4.15465 18.7664 4.23016 18.9507C4.30566 19.135 4.41712 19.3024 4.55803 19.4432C4.69893 19.584 4.86646 19.6953 5.05084 19.7706C5.23522 19.846 5.43276 19.8838 5.63192 19.882C5.83109 19.8802 6.0279 19.8387 6.21087 19.76C6.39384 19.6813 6.5593 19.567 6.6976 19.4236L11.9996 14.1216Z" fill="black"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3838_14688">
+                            <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </div>
+                </div> -->
+
+                <!-- <div class="indredient-and-measure-container">
+                    <ul class="ingredient">
+                        <label>Ingredients</label>
+                        <li>Potatoes</li>
+                        <li>Butter</li>
+                        <li>Cheese</li>
+                        <li>Onion</li>
+                        <li>Red Pepper</li>
+                        <li>Red Chilli Flakes</li>
+                    </ul>
+                    <ul class="measure">
+                        <label>Measure</label>
+                        <li>Potatoes</li>
+                        <li>Butter</li>
+                        <li>Cheese</li>
+                        <li>Onion</li>
+                        <li>Red Pepper</li>
+                        <li>Red Chilli Flakes</li>
+                    </ul>
+                </div> -->
+
+
+                <!-- <div class="instruction-container">
+                    <label>Instruction</label>
+                    <p>If you order kumpir in Turkey, the standard filling is first, lots of butter mashed into the potato, followed by cheese. There’s then a row of other toppings that you can just point at to your heart’s content – sweetcorn, olives, salami, coleslaw, Russian salad, allsorts – and you walk away with an over-stuffed potato because you got ever-excited by the choices on offer.\r\n\r\nGrate (roughly – you can use as much as you like) 150g of cheese.\r\nFinely chop one onion and one sweet red pepper.\r\nPut these ingredients into a large bowl with a good sprinkling of salt and pepper, chilli flakes (optional).</p>
+                </div> -->
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
