@@ -1,7 +1,3 @@
-// import
-// import fetchMeal from "./api.js";
-// fetchMeal()
-
 //category html element 
 const arrowLeft = document.getElementById("chip-btn-left")
 const arrowRight = document.getElementById("chip-btn-right")
@@ -198,8 +194,8 @@ function displayRecipeModal(meal) {
         <div class="modal-content-wrapper" id="modal-content-wrapper">
         <div class="modal-header">
         <div class="recipe-label-name">
-            <p>Recipes for:</p>
-            <h3>${meal.strMeal}</h3>
+            <p>RECIPE:</p>
+            <h3>${meal.strMeal} </h3>            
         </div>
             <div class="close-icon" id="closeModal" onclick="closeModal()">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
